@@ -1,0 +1,15 @@
+{
+  "resourse_pack_name": "status_RPG",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "wooden_sword": {
+      "textures": "textures/items/weapon/sword/wooden_sword"
+    },
+    "wooden_spear": {
+      "textures": "textures/items/weapon/spear/wooden_spear"
+    },
+    "wooden_axe": {
+      "textures": "textures/items/weapon/axe/wooden_axe"
+    }
+  }
+}

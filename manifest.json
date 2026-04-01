@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Lyuseria-RPG-Resource",
+        "name": "Lyuseria-RPG version 1.0.0 alpha",
+        "uuid": "7472bb4c-8e6b-4b1e-a901-e68cda708f6f",
+        "version": [1, 0, 0],
+        "min_engine_version": [ 1, 20, 60 ]
+    },
+    "modules": [
+        {
+            "description": "data",
+            "type": "resources",
+            "uuid": "7cc0fb23-b81d-4a5c-8d50-7e1768c67e78",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid":"22ae4ca5-bdba-4455-8b2e-257140870c71",
+            "version":[1,0,0]
+        }
+    ]
+}

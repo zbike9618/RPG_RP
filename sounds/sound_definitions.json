@@ -1,0 +1,17 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		
+      "player.attack.sweep": {
+         "sounds": [
+            "sounds/attack/sweep/sweep_attack1",
+            "sounds/attack/sweep/sweep_attack2",
+            "sounds/attack/sweep/sweep_attack3",
+            "sounds/attack/sweep/sweep_attack4",
+            "sounds/attack/sweep/sweep_attack5",
+            "sounds/attack/sweep/sweep_attack6",
+            "sounds/attack/sweep/sweep_attack7"
+         ]
+      }
+	}
+}
