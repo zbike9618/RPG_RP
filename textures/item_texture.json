@@ -1,5 +1,5 @@
 {
-  "resourse_pack_name": "status_RPG",
+  "resourse_pack_name": "Lyuseria",
   "texture_name": "atlas.items",
   "texture_data": {
     "wooden_sword": {
@@ -10,6 +10,9 @@
     },
     "wooden_axe": {
       "textures": "textures/items/weapon/axe/wooden_axe"
+    },
+    "wooden_dagger": {
+      "textures": "textures/items/weapon/dagger/wooden_dagger"
     }
   }
 }
