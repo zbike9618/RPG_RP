@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rpg:damage_indicator",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/empty"
+			},
+			"geometry": {
+				"default": "geometry.rpg_damage_indicator"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}
