@@ -2,7 +2,7 @@
 	"format_version": "1.20.80",
 	"minecraft:client_entity": {
 		"description": {
-			"identifier": "rpg:damage_indicator",
+			"identifier": "rpg:reward",
 			"materials": {
 				"default": "entity_alphatest"
 			},
