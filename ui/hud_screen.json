@@ -1,0 +1,103 @@
+{
+    "namespace": "hud",
+    "hud_actionbar_hp_side": {
+        "type": "panel",
+        "anchor_from": "bottom_middle",
+        "anchor_to": "bottom_middle",
+        "size": [
+            180,
+            50
+        ],
+        "controls": [
+            {
+                "hp_icon": {
+                    "type": "image",
+                    "texture": "textures/ui/heart",
+                    "anchor_from": "bottom_left",
+                    "anchor_to": "bottom_left",
+                    "offset": [
+                        -50,
+                        -38
+                    ],
+                    "size": [
+                        8,
+                        8
+                    ],
+                    "layer": 31
+                }
+            },
+            {
+                "money_icon": {
+                    "type": "image",
+                    "texture": "textures/items/gold_nugget",
+                    "anchor_from": "bottom_right",
+                    "anchor_to": "bottom_right",
+                    "offset": [
+                        30,
+                        -43
+                    ],
+                    "size": [
+                        16,
+                        16
+                    ],
+                    "layer": 31
+                }
+            },
+            {
+                "hp_text": {
+                    "type": "label",
+                    "text": "$actionbar_text",
+                    "anchor_from": "bottom_left",
+                    "anchor_to": "bottom_left",
+                    "offset": [
+                        -40,
+                        -27
+                    ],
+                    "size": [
+                        500,
+                        30
+                    ],
+                    "layer": 31,
+                    "localize": false,
+                    "shadow": true,
+                    "font_scale_factor": 0.9,
+                    "color": [
+                        1,
+                        1,
+                        1
+                    ]
+                }
+            }
+        ]
+    },
+    "root_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "replace",
+                "where": {
+                    "hud_actionbar_text_area": {
+                        "type": "panel",
+                        "factory": {
+                            "name": "hud_actionbar_text_factory",
+                            "control_ids": {
+                                "hud_actionbar_text": "hud_actionbar_text@hud.hud_actionbar_text"
+                            }
+                        }
+                    }
+                },
+                "value": {
+                    "hud_actionbar_text_area": {
+                        "type": "panel",
+                        "factory": {
+                            "name": "hud_actionbar_text_factory",
+                            "control_ids": {
+                                "hud_actionbar_text": "hud_actionbar_hp_side@hud.hud_actionbar_hp_side"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
